@@ -1,0 +1,170 @@
+<html>
+<head>
+    
+  
+    <title>Gaming Website</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    
+        <nav>
+          <div class="logo">GearGrove</div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+
+                <button type="submit">Search</button>
+            </div>
+        </nav>
+        <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="cate.htm">catogory</a>
+      <a href="console.htm">console</a>
+      <a href="games.htm">games</a>
+      <a href="keyboard.htm">keyboard</a>
+      <a href="mouse.htm">mouse</a>
+      <a href="headphone.htm">headphone</a>
+      <a href="poster.htm">poster</a>
+      <a href="about.htm">about us</a>
+     
+    </div>
+  </div>
+</header>
+<section class="banner">
+        <div class="banner-content">
+            <h1 style="color: rgb(255, 255, 255);">Attention!</h1>
+            <p style="text-align: justify; color: rgb(255, 255, 255);">"We're passionate about giving back to the planet! That's why we donate 30% of our profits to plant trees and support vital reforestation efforts. With every purchase you make, you're not just getting a great product, you're helping us create a healthier future for our planet, one tree at a time."</p>
+        </div>
+    </section>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="form-container sign-up-container">
+                    <form action="#">
+                        <h1 style="color: black;">Create Account</h1>
+                        <input type="text" placeholder="Name" />
+                        <input type="email" placeholder="Email" />
+                        <input type="password" placeholder="Password" />
+                        <button style="color:rgb(0, 0, 0);">Sign Up</button>
+                    </form>
+                </div>
+                <div class="form-container login-container">
+                    <form action="#">
+                        <h1 style="color:black;">Sign In</h1>
+                        <input type="email" placeholder="Email" />
+                        <input type="password" placeholder="Password" />
+                        <button style="color: black;" >Sign In</button>
+                    </form>
+                </div>
+                <div class="overlay-container">
+                    <div class="overlay">
+                        <div class="overlay-panel overlay-left">
+                            <h1 style="color: black;">Welcome Back!</h1>
+                            <p style="color: black;">To keep connected with us please login with your personal info</p>
+                            <button class="ghost" id="signIn" style="color: rgb(0, 0, 0);">Sign In</button>
+                        </div>
+                        <div class="overlay-panel overlay-right">
+                        <h1 style="color: black;">Hello, Friend!</h1>
+                            <p style="color: black;">Enter your personal details and start your journey with us</p>
+                                <button "ghost" id="signUp" style="color: black; " >Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+<script src="scripts.js"></script>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        .footer-logo img {
+            max-width: 150px;
+            height: auto;
+        }
+
+        .footer-info {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+            width: 100%;
+        }
+
+        .info-column {
+            flex: 1;
+            margin: 0;
+        }
+
+        .info-column h3 {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        .info-column p {
+            margin: 5px 0;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        @media (max-width: 768px) {
+            .footer-info {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .info-column {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+
+    <!-- Other content of the website -->
+
+    <footer class="footer">
+       
+         
+         
+         
+        <div class="footer-info">
+            <div class="info-column">
+                <h3>About Us</h3>
+                <p style="text-align: justify;">Welcome to GearGrove, your ultimate destination for all things gaming! We offer a wide range of top-notch gaming products, from the latest consoles and games to high-performance accessories.Whether you're a casual player or a hardcore gamer, GearGrove is here to elevate your gaming experience with quality gear and exceptional service. Dive into our grove and discover the best in gaming today!.</p>
+            </div>
+            <div class="info-column">
+                <h3>Contact</h3>
+                <p>Email: thegeargrove@gmail.com</p>
+                <p>Phone: 9098754670</p>
+            </div>
+            <div class="info-column">
+              <h3>Quick Links</h3>
+              <ul>
+                <a style="color: #fff;" href="cate.htm">catogory</a><br>
+                <a style="color: #fff;" href="console.htm">console</a><br>
+                <a style="color: #fff;" href="games.htm">games</a><br>
+                <a style="color: #fff;" href="keyboard.htm">keyboard</a><br>
+                <a style="color: #fff;" href="mouse.htm">mouse</a><br>
+                <a style="color: #fff;" href="headphone.htm">headphone</a><br>
+                <a style="color: #fff;" href="poster.htm">poster</a><br>
+                <a style="color: #fff;" href="about.htm">about us</a><br>
+              </ul>
+          </div>
+        </div>
+    </footer>
+
+    <!-- Other scripts -->
+</body>
+</html>
