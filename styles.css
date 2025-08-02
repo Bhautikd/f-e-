@@ -1,0 +1,93 @@
+/* Basic styles for the body and container */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px; 
+    padding: 0;
+  }
+.border{
+    color: orange;
+}
+.h2{
+    background-color: orange;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2px;
+    background: #000000;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.col {
+    flex: 1;
+    margin: 10px;
+}
+.image img{
+    max-width: 600px;
+    height: 600px;
+
+}
+.growth img
+{
+    max-width: auto;
+    height: auto;
+
+}
+
+.award img {
+    display: inline-block;
+    max-width: 90%;
+    margin:auto;
+    size: 50;
+    background-color:gray;
+}
+
+.employee img {
+    display: inline-block;
+    width :100%;
+    margin:auto;
+    size: 50;
+    background-image: unset;
+}
+
+.about-us, .our-journey, .our-vision, .our-mission, .our-products {
+    margin-bottom: 20px;
+}
+
+.h3{
+    color: #ffffff;
+
+}
+h2 {
+    color: rgb(255, 255, 255);
+   
+    
+}
+.h1{
+    color: white;
+}
+p {
+    color: #ffffff;
+    text-align: justify;
+    list-style: square;
+    
+}
+
+.bottom-section .col {
+    text-align: center;
+}
+
+.bottom-section .col.our-mission {
+    margin: 0 10px;
+}
+.our-sells, .our-globe, our-user{
+    margin-bottom:20px;
+}
